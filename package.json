@@ -1,0 +1,27 @@
+{
+  "name": "ai201-project2-fitfindr-starter",
+  "version": "1.0.0",
+  "description": "This starter kit contains everything you need to begin Project 2.",
+  "main": "generate-commit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamjamgobambam/ai201-project2-fitfindr-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jamjamgobambam/ai201-project2-fitfindr-starter/issues"
+  },
+  "homepage": "https://github.com/jamjamgobambam/ai201-project2-fitfindr-starter#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}

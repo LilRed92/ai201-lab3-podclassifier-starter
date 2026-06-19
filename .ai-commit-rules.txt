@@ -1,0 +1,8 @@
+Rule 1: The commit message subject line MUST be 50 characters or less.
+Rule 2: If the diff contains enough context, add a blank line after the subject and write a concise, bulleted body explaining WHAT changed and WHY. If it is a trivial change, leave it as a single line.
+Rule 3: Keep the tone highly professional, precise, and technical. Do not use conversational language.
+Rule 4: Only use ONE emoji at the very beginning of the subject line.
+Rule 5: If the diff modifies agent tools (search_listings, suggest_outfit, create_fit_card), explicitly mention the tool signature or interface changes in the body.
+Rule 6: If the diff alters the planning loop logic, state management, or error-handling fallbacks, detail how the agent's decision-making flow was affected.
+Rule 7: Output ONLY the raw commit message text. Do not wrap the entire output in markdown code blocks.
+Rule 8: Ignore environment tooling. If the diff contains changes to application code alongside tooling configurations (e.g., .venv/, .husky/, or package.json), completely ignore the tooling and focus entirely on the application logic. If ONLY tooling/environment files are changed, write a brief `chore(env):` message.

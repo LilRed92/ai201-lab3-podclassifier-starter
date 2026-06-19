@@ -1,0 +1,2 @@
+#!/bin/sh
+node generate-commit.js "$1"
